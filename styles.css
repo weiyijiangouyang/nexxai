@@ -2279,30 +2279,6 @@ section {
     color: var(--purple-light);
 }
 
-.social-links {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--text-secondary);
-    transition: var(--transition);
-}
-
-.social-link:hover {
-    background-color: var(--purple-medium);
-    color: var(--text-primary);
-    transform: translateY(-3px);
-}
-
 .contact-info p {
     margin-bottom: 0.5rem;
     display: flex;
